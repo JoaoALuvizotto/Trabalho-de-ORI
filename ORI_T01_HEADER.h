@@ -188,7 +188,7 @@ typedef struct {
 
 // Índice secundário dos nomes de bolsomon (lista invertida)
 typedef struct {
-	char chave_secundaria[TAM_MAX_NOME_BOLSOMON];   //string com o NOME do bolsomon
+	char chave_secundaria[TAM_MAX_NOME_BOLSOMON];   //string com o nome do bolsomon
 	int primeiro_indice;
 } treinador_bolsomons_secundario_index;
 
